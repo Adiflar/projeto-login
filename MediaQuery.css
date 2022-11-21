@@ -10,7 +10,7 @@ lilas #5f2c82
 
 @media screen and (min-width: 768px) and (max-width:992px)
 {     body,html{
-     background-image: linear-gradient( to bottom , rgba(164, 198, 225, 0.696), rgb(20, 56, 97) );
+     background-image: linear-gradient( to bottom , rgba(202, 221, 236, 0.779), rgb(20, 56, 97) );
 }  
     section#login {
             width: 80vw;
@@ -30,7 +30,7 @@ lilas #5f2c82
 
 @media screen and (min-width:992px) {
     body,html{
-        background-image: linear-gradient( to bottom, rgba(180, 226, 233, 0.696), rgb(13, 47, 86) );
+        background-image: linear-gradient( to bottom, rgba(203, 234, 238, 0.762), rgb(13, 47, 86) );
    }  
     section#login {
         width: 990px;
