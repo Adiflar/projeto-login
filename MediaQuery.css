@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*Paletaas de cores
+    
+Verde #49a09d
+lilas #5f2c82 
+
+*/
+
+
+@media screen and (min-width: 768px) and (max-width:992px)
+{     body,html{
+     background-image: linear-gradient( to bottom , rgba(164, 198, 225, 0.696), rgb(20, 56, 97) );
+}  
+    section#login {
+            width: 80vw;
+}
+    section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body,html{
+        background-image: linear-gradient( to bottom, rgba(180, 226, 233, 0.696), rgb(13, 47, 86) );
+   }  
+    section#login {
+        width: 990px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}
