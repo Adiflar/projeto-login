@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/*Paletaas de cores
-    
-Verde #49a09d
-lilas #5f2c82 
-
-*/
-
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
@@ -68,11 +61,61 @@ div#formulario >h1 {
     font-size: 1.2em;
  }   
 
- p.esqueci {
-    font-size: 0.7em;
+ form > a.esqueci {
+    font-size: 1em;
     padding: 4px;
-  
- 
-  
-  
+    display: block;
+    text-align: center;
+    background-color: #a8efe3;
+    height: 41px;
+    border-radius: 9px;
+    padding-top: 5px;
+    margin-top:5px ;
+    text-decoration: none;
+  }
+
+  form > a.esqueci:hover{
+    background-color: #77adc6;
+    color: white;
+
+  }
+
+form > input[type=submit] {
+    background-color: rgba(153, 185, 227, 0.654);
+   width: 100%;
+   font-size: 1em;
+   height: 40px;
+    color:rgb(0, 0, 0) ;
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    margin-top:5px ;
+}
+
+ form > input[type=submit]:hover {
+    background-color: #77adc6;
+    font-size: 1.3em;
+    color: white;
+ }
+
+ form > div.campo{
+    background-color:  #3554dc9c;
+    border-radius: 5px;
+    margin-top: 4px;
+    
+ }
+div.campo > span{
+    text-align: center;
+    margin-left: 10px;
+   
+}
+div.campo > input {
+    background-color: #e6e8e8ee;
+    width: calc(100% - 7%);
+   margin-left: -15px;
+    height: 35px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.296);
+
  }
